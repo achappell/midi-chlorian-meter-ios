@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>434811748069-i7f6vk577hdigijko2ld3tkiboikl20h.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.434811748069-i7f6vk577hdigijko2ld3tkiboikl20h</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCUCFAeDk1ZRFVfxGo83GHG-DH1AvcdlRc</string>
+	<key>GCM_SENDER_ID</key>
+	<string>434811748069</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.bottlerocket.JediPointsTracker</string>
+	<key>PROJECT_ID</key>
+	<string>midi-chlorian-meter</string>
+	<key>STORAGE_BUCKET</key>
+	<string>midi-chlorian-meter.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:434811748069:ios:efbcd26a889f4db4</string>
+	<key>DATABASE_URL</key>
+	<string>https://midi-chlorian-meter.firebaseio.com</string>
+</dict>
+</plist>

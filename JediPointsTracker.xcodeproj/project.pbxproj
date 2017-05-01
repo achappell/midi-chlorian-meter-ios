@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C24863DBA2304B80C5E48F7 /* Pods_JediPointsTracker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A04E3BD53C2526A180FD0B72 /* Pods_JediPointsTracker.framework */; };
 		C8A9400F1EB397AA003DF1C0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8A9400E1EB397AA003DF1C0 /* AppDelegate.swift */; };
 		C8A940111EB397AA003DF1C0 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8A940101EB397AA003DF1C0 /* FirstViewController.swift */; };
 		C8A940131EB397AA003DF1C0 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8A940121EB397AA003DF1C0 /* SecondViewController.swift */; };
@@ -14,6 +15,10 @@
 		C8A940181EB397AA003DF1C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8A940171EB397AA003DF1C0 /* Assets.xcassets */; };
 		C8A9401B1EB397AA003DF1C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8A940191EB397AA003DF1C0 /* LaunchScreen.storyboard */; };
 		C8A940261EB397AA003DF1C0 /* JediPointsTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8A940251EB397AA003DF1C0 /* JediPointsTrackerTests.swift */; };
+		C8F69AB21EB39B7700D2DCC5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C8F69AB11EB39B7700D2DCC5 /* GoogleService-Info.plist */; };
+		C8F69AB41EB3A1A400D2DCC5 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8F69AB31EB3A1A400D2DCC5 /* Event.swift */; };
+		C8F69AB61EB3B40F00D2DCC5 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8F69AB51EB3B40F00D2DCC5 /* User.swift */; };
+		D4E5EE5D34F1D5B49886898A /* Pods_JediPointsTrackerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64944CB19784D7EAFAC09CF6 /* Pods_JediPointsTrackerTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +32,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		14B52F29B842457896CF5A37 /* Pods-JediPointsTrackerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JediPointsTrackerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JediPointsTrackerTests/Pods-JediPointsTrackerTests.release.xcconfig"; sourceTree = "<group>"; };
+		580B540D6276ACA1C31160C4 /* Pods-JediPointsTrackerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JediPointsTrackerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JediPointsTrackerTests/Pods-JediPointsTrackerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		64944CB19784D7EAFAC09CF6 /* Pods_JediPointsTrackerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JediPointsTrackerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		997880594A9EB0B8DA53565C /* Pods-JediPointsTracker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JediPointsTracker.release.xcconfig"; path = "Pods/Target Support Files/Pods-JediPointsTracker/Pods-JediPointsTracker.release.xcconfig"; sourceTree = "<group>"; };
+		A04E3BD53C2526A180FD0B72 /* Pods_JediPointsTracker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JediPointsTracker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7C15096A85D541E16B1FB29 /* Pods-JediPointsTracker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JediPointsTracker.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JediPointsTracker/Pods-JediPointsTracker.debug.xcconfig"; sourceTree = "<group>"; };
 		C8A9400B1EB397AA003DF1C0 /* JediPointsTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JediPointsTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8A9400E1EB397AA003DF1C0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C8A940101EB397AA003DF1C0 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -38,6 +49,9 @@
 		C8A940211EB397AA003DF1C0 /* JediPointsTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JediPointsTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8A940251EB397AA003DF1C0 /* JediPointsTrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JediPointsTrackerTests.swift; sourceTree = "<group>"; };
 		C8A940271EB397AA003DF1C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C8F69AB11EB39B7700D2DCC5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C8F69AB31EB3A1A400D2DCC5 /* Event.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		C8F69AB51EB3B40F00D2DCC5 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C24863DBA2304B80C5E48F7 /* Pods_JediPointsTracker.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,18 +67,32 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4E5EE5D34F1D5B49886898A /* Pods_JediPointsTrackerTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		81936D17FDFC3E0A0D9E8015 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C7C15096A85D541E16B1FB29 /* Pods-JediPointsTracker.debug.xcconfig */,
+				997880594A9EB0B8DA53565C /* Pods-JediPointsTracker.release.xcconfig */,
+				580B540D6276ACA1C31160C4 /* Pods-JediPointsTrackerTests.debug.xcconfig */,
+				14B52F29B842457896CF5A37 /* Pods-JediPointsTrackerTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		C8A940021EB397AA003DF1C0 = {
 			isa = PBXGroup;
 			children = (
 				C8A9400D1EB397AA003DF1C0 /* JediPointsTracker */,
 				C8A940241EB397AA003DF1C0 /* JediPointsTrackerTests */,
 				C8A9400C1EB397AA003DF1C0 /* Products */,
+				81936D17FDFC3E0A0D9E8015 /* Pods */,
+				EC59357D997ECB16BA035020 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -84,8 +113,11 @@
 				C8A940121EB397AA003DF1C0 /* SecondViewController.swift */,
 				C8A940141EB397AA003DF1C0 /* Main.storyboard */,
 				C8A940171EB397AA003DF1C0 /* Assets.xcassets */,
+				C8F69AB11EB39B7700D2DCC5 /* GoogleService-Info.plist */,
 				C8A940191EB397AA003DF1C0 /* LaunchScreen.storyboard */,
 				C8A9401C1EB397AA003DF1C0 /* Info.plist */,
+				C8F69AB31EB3A1A400D2DCC5 /* Event.swift */,
+				C8F69AB51EB3B40F00D2DCC5 /* User.swift */,
 			);
 			path = JediPointsTracker;
 			sourceTree = "<group>";
@@ -99,6 +131,15 @@
 			path = JediPointsTrackerTests;
 			sourceTree = "<group>";
 		};
+		EC59357D997ECB16BA035020 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A04E3BD53C2526A180FD0B72 /* Pods_JediPointsTracker.framework */,
+				64944CB19784D7EAFAC09CF6 /* Pods_JediPointsTrackerTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -106,9 +147,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C8A9402A1EB397AA003DF1C0 /* Build configuration list for PBXNativeTarget "JediPointsTracker" */;
 			buildPhases = (
+				F32E1214A1A73848E71C2526 /* [CP] Check Pods Manifest.lock */,
 				C8A940071EB397AA003DF1C0 /* Sources */,
 				C8A940081EB397AA003DF1C0 /* Frameworks */,
 				C8A940091EB397AA003DF1C0 /* Resources */,
+				E953A5C1E54B5C026C1E05CF /* [CP] Embed Pods Frameworks */,
+				B1618347D92C46DE3B6D74B8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -123,9 +167,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C8A9402D1EB397AA003DF1C0 /* Build configuration list for PBXNativeTarget "JediPointsTrackerTests" */;
 			buildPhases = (
+				7E4D4D2A8E4B01DFAF01383C /* [CP] Check Pods Manifest.lock */,
 				C8A9401D1EB397AA003DF1C0 /* Sources */,
 				C8A9401E1EB397AA003DF1C0 /* Frameworks */,
 				C8A9401F1EB397AA003DF1C0 /* Resources */,
+				8BCDE802B508E1815A6F6531 /* [CP] Embed Pods Frameworks */,
+				EB062A6789A0AB5D92C5A50E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -185,6 +232,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C8A9401B1EB397AA003DF1C0 /* LaunchScreen.storyboard in Resources */,
+				C8F69AB21EB39B7700D2DCC5 /* GoogleService-Info.plist in Resources */,
 				C8A940181EB397AA003DF1C0 /* Assets.xcassets in Resources */,
 				C8A940161EB397AA003DF1C0 /* Main.storyboard in Resources */,
 			);
@@ -199,13 +247,108 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7E4D4D2A8E4B01DFAF01383C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8BCDE802B508E1815A6F6531 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JediPointsTrackerTests/Pods-JediPointsTrackerTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B1618347D92C46DE3B6D74B8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JediPointsTracker/Pods-JediPointsTracker-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E953A5C1E54B5C026C1E05CF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JediPointsTracker/Pods-JediPointsTracker-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EB062A6789A0AB5D92C5A50E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JediPointsTrackerTests/Pods-JediPointsTrackerTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F32E1214A1A73848E71C2526 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C8A940071EB397AA003DF1C0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C8F69AB41EB3A1A400D2DCC5 /* Event.swift in Sources */,
 				C8A940131EB397AA003DF1C0 /* SecondViewController.swift in Sources */,
 				C8A9400F1EB397AA003DF1C0 /* AppDelegate.swift in Sources */,
+				C8F69AB61EB3B40F00D2DCC5 /* User.swift in Sources */,
 				C8A940111EB397AA003DF1C0 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -251,6 +394,7 @@
 		C8A940281EB397AA003DF1C0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -302,6 +446,7 @@
 		C8A940291EB397AA003DF1C0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -345,7 +490,9 @@
 		};
 		C8A9402B1EB397AA003DF1C0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7C15096A85D541E16B1FB29 /* Pods-JediPointsTracker.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 2UAV38D2MU;
 				INFOPLIST_FILE = JediPointsTracker/Info.plist;
@@ -358,7 +505,9 @@
 		};
 		C8A9402C1EB397AA003DF1C0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 997880594A9EB0B8DA53565C /* Pods-JediPointsTracker.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 2UAV38D2MU;
 				INFOPLIST_FILE = JediPointsTracker/Info.plist;
@@ -371,8 +520,9 @@
 		};
 		C8A9402E1EB397AA003DF1C0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 580B540D6276ACA1C31160C4 /* Pods-JediPointsTrackerTests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = 2UAV38D2MU;
 				INFOPLIST_FILE = JediPointsTrackerTests/Info.plist;
@@ -386,8 +536,9 @@
 		};
 		C8A9402F1EB397AA003DF1C0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14B52F29B842457896CF5A37 /* Pods-JediPointsTrackerTests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = 2UAV38D2MU;
 				INFOPLIST_FILE = JediPointsTrackerTests/Info.plist;
@@ -418,6 +569,7 @@
 				C8A9402C1EB397AA003DF1C0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C8A9402D1EB397AA003DF1C0 /* Build configuration list for PBXNativeTarget "JediPointsTrackerTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +578,7 @@
 				C8A9402F1EB397AA003DF1C0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
